@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <div className="bg-[url('..\public\img\hero-background.jpg')] bg-center md:h-[420px] h-[300px] p-3 flex justify-center items-center">
+        <div className="bg-[url('..\public\static\images\hero-background.jpg')] bg-center md:h-[420px] h-[300px] p-3 flex justify-center items-center">
             <div>
                 <div className="md:text-3xl text-xl text-center font-medium leading-9">
                     သင်မက်ခဲ့တဲ့ <span className="text-blue-600 font-bold">အိမ်မက် </span>အကြောင်း နဲ့ပတ်သတ်ပြီး သိချင်နေပြီမလား
