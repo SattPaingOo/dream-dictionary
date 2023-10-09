@@ -34,7 +34,7 @@ const Home = () => {
           <Loading />
         </div>
       ) : (
-        <div className="max-w-[1440px] p-auto m-auto md:flex md:flex-wrap md:items-center md:justify-center">
+        <div className="max-w-[1440px] p-auto m-auto md:mt-9 md:flex md:flex-wrap md:items-center md:justify-center">
           {blogHeaders.map((blogHeader, index) => (
             <Link to={`/details/${blogHeader.blog_id}`} key={index}>
               <div
