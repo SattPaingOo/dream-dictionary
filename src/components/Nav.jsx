@@ -9,7 +9,7 @@ import { useState } from "react";
 const Nav = () => {
   const links = [
     { name: "ပင်မ စာမျက်နာ", link: "/" },
-    // { name: "Project အကြောင်း", link: "/about" },
+    { name: "Project အကြောင်း", link: "/about" },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
