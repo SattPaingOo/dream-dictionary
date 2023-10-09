@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <div>
-            About Pagw
+            About Page
         </div>
         // <div className="max-w-[1440px] md:p-14 p-3 md:pt-[100px] pt-[60px] p-auto m-auto min-h-[calc(100vh-50px)]">
         //     <div className="max-w-[600px] p-auto m-auto md:mt-12 mt-9 md:leading-9 leading-8 md:text-lg text-center">
@@ -21,7 +21,7 @@ const About = () => {
         //         <div>Special Thanks to bro <span className="text-blue-600">Sann Lynn Htun</span> for Project Idea && data support .</div>
         //     </div>
         // </div>
-    )
+    );
 }
 
 export default About;
