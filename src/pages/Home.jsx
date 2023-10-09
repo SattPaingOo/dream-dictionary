@@ -20,7 +20,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="pt-[60px] p-auto m-auto min-h-screen">
+    <div className="pt-[60px] md:mb-12 mb-6 p-auto m-auto min-h-screen">
       <Hero />
       <Search />
       <div className="max-w-[1440px] p-auto m-auto">
