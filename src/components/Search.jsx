@@ -20,7 +20,6 @@ const Search = () => {
           items={detailDatas}
           fuseOptions={{ keys: ["blog_content"] }}
           resultStringKeyName="blog_content"
-          autoFocus
           placeholder="သင့်အိမ်မက်ထဲက အဓိက အကြောင်းအရာ ရိုက်ထည့်ပါ ။ ဥပမာ နွား ၊ ငရုတ် စသဖြင့်"
           className="mx-1"
         />

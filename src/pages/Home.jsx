@@ -34,19 +34,19 @@ const Home = () => {
           <Loading />
         </div>
       ) : (
-        <div className="max-w-[1440px] mt-6 p-auto m-auto flex flex-wrap justify-center pb-7">
+        <div className="max-w-[1440px] p-auto m-auto md:flex md:flex-wrap md:items-center md:justify-center">
           {blogHeaders.map((blogHeader, index) => (
             <Link to={`/details/${blogHeader.blog_id}`} key={index}>
               <div
                 className="
-                        min-w-[350px]
+                        md:w-[400px]
+                        m-3
+                        p-3
                         flex
                         items-center
                         justify-center
                         md:m-6 
                         md:p-6
-                        m-3
-                        p-3
                         cursor-pointer 
                         bg-white
                         border
